@@ -1,0 +1,33 @@
+
+
+#navbar {
+    background-color: #84adff;
+    color: rgb(21, 0, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#navbar a {
+    color: rgba(255, 255, 255, 0.929);
+    text-decoration: none;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a {
+    padding: 8px;
+    margin: 0 4px;
+}
+
+#navbar ul li a:hover {
+    background-color: #0142a3;
+    border-radius: 5px;
+}
