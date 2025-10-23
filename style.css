@@ -16,6 +16,10 @@
     align-items: center;
 }
 ul li a:hover {
-    background-color: #a30101;
+    background-color: #a9ffd7;
     border-radius: 10px;
+}
+.sekce1 {
+    background-color: rgb(127, 242, 255);
+    font-size: large;
 }
