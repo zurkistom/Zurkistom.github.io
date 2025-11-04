@@ -67,3 +67,19 @@
     list-style: none;
     padding: 0;
 }
+
+@media screen and (max-width: 750px) { 
+  .fa-solid .fa-house {
+    display: inline;
+  }
+  .home-text {
+    display: none;
+  }
+}
+.home-icon {
+  display: none;
+}
+.home-text {
+  display: inline;
+}
+
