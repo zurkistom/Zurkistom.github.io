@@ -84,3 +84,21 @@
   display: inline;
 }
 
+#navbar ul li a i {
+  margin-right: 0.5rem; 
+}
+
+@media (max-width: 37.5rem) { 
+  #navbar ul li a {
+    font-size: 0; /* skryje text */
+  }
+
+  #navbar ul li a i {
+    font-size: 1.5rem; 
+    margin: 0 0.625rem; 
+  }
+
+  #navbar ul {
+    gap: 1.25rem; 
+  }
+}
