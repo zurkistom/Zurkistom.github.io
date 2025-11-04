@@ -68,14 +68,15 @@
     padding: 0;
 }
 
-@media screen and (max-width: 750px) { 
+@media screen and (max-width: 500px) { 
   .fa-solid .fa-house {
     display: inline;
   }
   .home-text {
     display: none;
   }
-}
+
+  }
 .home-icon {
   display: none;
 }
